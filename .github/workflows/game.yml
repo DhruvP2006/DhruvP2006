@@ -1,0 +1,27 @@
+name: Update Space Shooter Game
+
+on:
+  # Run automatically every day at midnight UTC
+  schedule:
+    - cron: "0 0 * * *"
+  # Allows you to manually run the job from the Actions tab for testing
+  workflow_dispatch:
+
+jobs:
+  update-game:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Space Shooter GIF
+        uses: czl9707/gh-space-shooter@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: Change the output filename (default is gh-space-shooter.gif)
+          output-path: gh-space-shooter.gif
+          # Optional: Change enemy strategy (random, column, row)
+          strategy: random
