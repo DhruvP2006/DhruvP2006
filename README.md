@@ -14,10 +14,10 @@ I'm a Full Stack Web Developer<br>I'm currently working at [SSRP (Somaiya Space 
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=DhruvP2006&theme=dark&hide_border=false&include_all_commits=false&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=DhruvP2006&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=DhruvP2006&theme=dark&hide_border=false&include_all_commits=false&count_private=true&layout=compact)
+![GitHub Stats](./profile/stats.svg)<br/>
+![GitHub Streak](https://streak-stats.demolab.com/?user=DhruvP2006&theme=dark&hide_border=false)<br/>
+![Top Languages](./profile/top-langs.svg)
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=DhruvP2006&icon=0&color=4)](https://visitcount.itsvg.in)
+![Profile Views](https://komarev.com/ghpvc/?username=DhruvP2006&color=blue)
